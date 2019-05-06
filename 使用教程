@@ -1,0 +1,23 @@
+1：安装python3
+sudo apt-get install python3
+
+2.解压文件夹::
+
+      tar jxvf sqla.tar.bz2
+      cd sqla
+
+3.创建并激活虚拟环境::
+
+      virtualenv env -p python3
+      source env/bin/activate
+
+4.安装要求::
+
+      pip install -r requirements.txt
+
+5.运行应用程序::
+
+      python app.py
+	  
+6.在虚拟机浏览器输入
+http://127.0.0.1:5000
